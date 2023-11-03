@@ -1,0 +1,168 @@
+:root{
+    --white: #fff;
+    --platinum: #E8EBE4;
+    --gray: #BEC1BB;
+    --blueBell: #A491D2;
+    --soap: #CDC3E6;
+    --paleLavender: #D4DCFF;
+    --darkJungle: #1B1F21;
+    --outerSpace: #444749;
+    --oldSilver: #828485;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    margin-bottom: 0;
+}
+p{
+    margin-top: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.fullscreen{
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    border-right: solid var(--platinum) 2px;
+}
+
+.user{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+    border-bottom: solid var(--platinum) 2px;
+}
+
+.setup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgUser{
+    display: flex;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: solid var(--platinum) 2px;
+}
+
+.profile{
+    margin-left: 10px;
+    padding: 0;
+}
+
+.icons{
+    color: var(--gray);
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    justify-content: space-between;
+}
+
+.message{
+    margin-right: 10px;
+}
+
+.butonFrame{
+    border-bottom: solid var(--platinum) 2px;
+    text-align: center;
+}
+
+.buton{
+    background-color: var(--blueBell);
+    color: var(--white);
+    padding: 1rem 3rem;
+    margin: 2rem;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none; 
+}
+
+.buton:hover{
+    background-color: var(--soap);
+}
+
+.buton:focus{
+    background-color: var(--gray);
+}
+
+.list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    flex-basis: 100%;
+    background-color: var(--white);
+    text-align: center;
+    border-bottom: solid var(--platinum) 2px;
+}
+
+.setupContact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid var(--platinum) 2px;
+}
+
+.imgContact{
+    display: flex;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: solid var(--platinum) 2px;
+}
+
+.profileContact{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-left: 10px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-end; 
+}
+
+.content h1{
+    font-size: 45px;
+    margin-top: 10px;
+    font-weight: 400;
+    color: var(--outerSpace);
+    margin-bottom: 0;
+}
+
+.content p{
+    font-size: 16px;
+    text-align: center;
+    color: var(--outerSpace);
+    text-decoration: none;
+}
+
+.hero{
+    width: 20%;
+    height: auto;
+}
